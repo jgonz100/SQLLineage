@@ -1,0 +1,382 @@
+Parent_Table,Parent_Column,Child_Column
+eniteo_bassem.dbo.AP_Vendor_PO,0 , ERP_ID
+eniteo_bassem.dbo.AP_Vendor_PO,company_id , company_id
+eniteo_bassem.dbo.AP_Vendor_PO,company_id , Branch_ID
+eniteo_bassem.dbo.AP_Vendor_PO,POH_PONumber , PO_ID
+eniteo_bassem.dbo.AP_Vendor_PO,POL_LineNum , PO_Line_ID
+eniteo_bassem.dbo.AP_Vendor_PO,POH_POHeadID , ALT_PO_ID
+eniteo_bassem.dbo.AP_Vendor_PO,POL_POLineID , ALT_PO_Line_ID
+eniteo_bassem.dbo.AP_Vendor_PO,POH_VendorID , Vendor_ID
+eniteo_bassem.dbo.AP_Vendor_PO,POL_ItemID , Product_ID
+eniteo_bassem.dbo.AP_Vendor_PO, Product_Group_ID,
+eniteo_bassem.dbo.AP_Vendor_PO, Product_Grade_ID,
+eniteo_bassem.dbo.AP_Vendor_PO, Ship_Origin_LOC_ID,
+eniteo_bassem.dbo.AP_Vendor_PO,POH_TermsID , Term_ID
+eniteo_bassem.dbo.AP_Vendor_PO,POL_UM , Unit_Of_Measure_ID
+eniteo_bassem.dbo.AP_Vendor_PO, Weight_Unit_Of_Measure_ID,
+eniteo_bassem.dbo.AP_Vendor_PO, Freight_Unit_Of_Measure_ID,
+eniteo_bassem.dbo.AP_Vendor_PO,POH_WarehouseID , Warehouse_ID
+eniteo_bassem.dbo.AP_Vendor_PO,POL_ShiptoID , Shipping_Destination_LOC_ID
+eniteo_bassem.dbo.AP_Vendor_PO,POL_CustomerID , Customer_ID
+eniteo_bassem.dbo.AP_Vendor_PO,POH_FOBID , Free_On_Board_ID
+eniteo_bassem.dbo.AP_Vendor_PO,POL_InventoryID , Inventory_ID
+eniteo_bassem.dbo.AP_Vendor_PO, Freight_Vendor_ID,
+eniteo_bassem.dbo.AP_Vendor_PO, Buyer_ID,
+eniteo_bassem.dbo.AP_Vendor_PO, Receiving_Branch_ID,
+eniteo_bassem.dbo.AP_Vendor_PO, Freight_Responsible_ID,
+eniteo_bassem.dbo.AP_Vendor_PO, Status_ID,
+eniteo_bassem.dbo.AP_Vendor_PO, PO_Line_Status_ID,
+eniteo_bassem.dbo.AP_Vendor_PO,POH_PODate , Issue_Date
+eniteo_bassem.dbo.AP_Vendor_PO, Entry_Date,
+eniteo_bassem.dbo.AP_Vendor_PO, Due_Date,
+eniteo_bassem.dbo.AP_Vendor_PO, Completion_Date,
+eniteo_bassem.dbo.AP_Vendor_PO, VDA_Date,
+eniteo_bassem.dbo.AP_Vendor_PO,POL_DueDate , PO_Line_Due_Date
+eniteo_bassem.dbo.AP_Vendor_PO, PO_Line_Original_Due_Date,
+eniteo_bassem.dbo.AP_Vendor_PO,POL_ChangeDt , PO_Line_Last_Modified_Date
+eniteo_bassem.dbo.AP_Vendor_PO, PO_Line_Ready_Date,
+eniteo_bassem.dbo.AP_Vendor_PO,POL_RollDate , PO_Line_Roll_Date
+eniteo_bassem.dbo.AP_Vendor_PO,POH_ShipToType , Shipping_Destination_Type
+eniteo_bassem.dbo.AP_Vendor_PO, Product_Origin_Type,
+eniteo_bassem.dbo.AP_Vendor_PO, Type_Code,
+eniteo_bassem.dbo.AP_Vendor_PO, Category_Code,
+eniteo_bassem.dbo.AP_Vendor_PO, Category_Description,
+eniteo_bassem.dbo.AP_Vendor_PO, Method_Code,
+eniteo_bassem.dbo.AP_Vendor_PO, Certificate_Type,
+eniteo_bassem.dbo.AP_Vendor_PO, Exchange_Code,
+eniteo_bassem.dbo.AP_Vendor_PO, Delivery_Method,
+eniteo_bassem.dbo.AP_Vendor_PO, Freight_Exchange_Code,
+eniteo_bassem.dbo.AP_Vendor_PO, Product_GA_Type_Code,
+eniteo_bassem.dbo.AP_Vendor_PO, Product_Dimension_Format,
+eniteo_bassem.dbo.AP_Vendor_PO, Product_Maintenance_Code,
+eniteo_bassem.dbo.AP_Vendor_PO, Product_Inquiry_Cost_Code,
+eniteo_bassem.dbo.AP_Vendor_PO, Delivered_Flag,
+eniteo_bassem.dbo.AP_Vendor_PO,POL_Received , Received_Flag
+eniteo_bassem.dbo.AP_Vendor_PO,POH_NonInvPO , Non_Inventory_Flag
+eniteo_bassem.dbo.AP_Vendor_PO,POH_PrintFreight , Print_Freight_Flag
+eniteo_bassem.dbo.AP_Vendor_PO,POL_LockActualCost , Lock_Actual_Cost_Flag
+eniteo_bassem.dbo.AP_Vendor_PO,POL_GainOverride , Item_Gain_Override_Flag
+eniteo_bassem.dbo.AP_Vendor_PO, Chemical_Test_Required_Flag,
+eniteo_bassem.dbo.AP_Vendor_PO, Physical_Test_Required_Flag,
+eniteo_bassem.dbo.AP_Vendor_PO, Certificate_Recieved_Flag,
+eniteo_bassem.dbo.AP_Vendor_PO, Acknowledge_Required_Flag,
+eniteo_bassem.dbo.AP_Vendor_PO, Part_Flag,
+eniteo_bassem.dbo.AP_Vendor_PO, Maintenance_Flag,
+eniteo_bassem.dbo.AP_Vendor_PO, Freight_Calculated_Flag,
+eniteo_bassem.dbo.AP_Vendor_PO, Completion_Code,
+eniteo_bassem.dbo.AP_Vendor_PO, Freight_Responsible_Code,
+eniteo_bassem.dbo.AP_Vendor_PO, Updated_Usage_Flag,
+eniteo_bassem.dbo.AP_Vendor_PO,POL_Weight , Ordered_Weight
+eniteo_bassem.dbo.AP_Vendor_PO,POL_Pieces , Ordered_No_of_Pieces
+eniteo_bassem.dbo.AP_Vendor_PO,POL_Feet , Ordered_Total_Feet
+eniteo_bassem.dbo.AP_Vendor_PO,POL_Amount , Ordered_Total_Cost
+eniteo_bassem.dbo.AP_Vendor_PO, Material_Cost,
+eniteo_bassem.dbo.AP_Vendor_PO, Processing_Cost,
+eniteo_bassem.dbo.AP_Vendor_PO, Other_Cost,
+eniteo_bassem.dbo.AP_Vendor_PO, Freight_Cost,
+eniteo_bassem.dbo.AP_Vendor_PO, Balance_Units,
+eniteo_bassem.dbo.AP_Vendor_PO, Balance_Measure,
+eniteo_bassem.dbo.AP_Vendor_PO, Balance_Weight,
+eniteo_bassem.dbo.AP_Vendor_PO, Received_Units,
+eniteo_bassem.dbo.AP_Vendor_PO, Received_Measure,
+eniteo_bassem.dbo.AP_Vendor_PO, Received_Weight,
+eniteo_bassem.dbo.AP_Vendor_PO, Reserved_Units,
+eniteo_bassem.dbo.AP_Vendor_PO, Reserved_Quantity,
+eniteo_bassem.dbo.AP_Vendor_PO, Reserved_Weight,
+eniteo_bassem.dbo.AP_Vendor_PO, Ordered_Measure,
+eniteo_bassem.dbo.AP_Vendor_PO, Open_Cost,
+eniteo_bassem.dbo.AP_Vendor_PO, Open_Cost_Base_Currency,
+eniteo_bassem.dbo.AP_Vendor_PO, Received_Quantity,
+eniteo_bassem.dbo.AP_Vendor_PO, Inquiry_Cost,
+eniteo_bassem.dbo.AP_Vendor_PO,POL_Length , Length
+eniteo_bassem.dbo.AP_Vendor_PO,POL_Width , Width
+eniteo_bassem.dbo.AP_Vendor_PO,POL_Price , Price
+eniteo_bassem.dbo.AP_Vendor_PO,POH_Buyer , Buyer_Name
+eniteo_bassem.dbo.AP_Vendor_PO,POH_Ship , Shipping_Method_Description
+eniteo_bassem.dbo.AP_Vendor_PO,POH_FOBSpecial , Free_On_Board_Description
+eniteo_bassem.dbo.AP_Vendor_PO,POL_GainPercent , Gain_Percent
+eniteo_bassem.dbo.AP_Vendor_PO, No_Of_Lines,
+eniteo_bassem.dbo.AP_Vendor_PO, Number_Of_Certificates_By_Shipment,
+eniteo_bassem.dbo.AP_Vendor_PO, Number_Of_Certificates_By_Invoice,
+eniteo_bassem.dbo.AP_Vendor_PO, Exchange_Rate,
+eniteo_bassem.dbo.AP_Vendor_PO, Freight_Rate,
+eniteo_bassem.dbo.AP_Vendor_PO, Freight_Exchange_Rate,
+eniteo_bassem.dbo.AP_Vendor_PO, Status_Description,
+eniteo_bassem.dbo.AP_Vendor_PO, Freight_Responsible_Description,
+eniteo_bassem.dbo.AP_Vendor_PO, GA,
+eniteo_bassem.dbo.AP_Vendor_PO, Size,
+eniteo_bassem.dbo.AP_Vendor_PO, Description_1,
+eniteo_bassem.dbo.AP_Vendor_PO, Description_2,
+eniteo_bassem.dbo.AP_Vendor_PO, PO_Line_Inquiry_Remark,
+eniteo_bassem.dbo.AP_Vendor_PO, PO_Line_Status_Description,
+eniteo_bassem.dbo.AP_Vendor_PO, Customer_Part_No,
+eniteo_bassem.dbo.AP_Vendor_PO,POH_Reference , Reference
+eniteo_bassem.dbo.AP_Vendor_PO, Actual_Received_Cost,
+eniteo_bassem.dbo.AP_Vendor_PO,0 , Deleted_After_Flag
+eniteo_bassem.dbo.AP_Vendor_PO,"CONVERT(datetime,Getdate(),106) ", ELT_Date
+eniteo_bassem.dbo.AP_Vendor_PO,ELT_Date,
+eniteo_bassem.dbo.AP_Vendor_PO,POH.company_id , company_id
+eniteo_bassem.dbo.AP_Vendor_PO,POH.POHeadID , POH_POHeadID
+eniteo_bassem.dbo.AP_Vendor_PO,POH.PONumber , POH_PONumber
+eniteo_bassem.dbo.AP_Vendor_PO,POH.VendorID , POH_VendorID
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ShipToID , POH_ShipToID
+eniteo_bassem.dbo.AP_Vendor_PO,POH.Buyer , POH_Buyer
+eniteo_bassem.dbo.AP_Vendor_PO,POH.PODate , POH_PODate
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ReleaseFlag , POH_ReleaseFlag
+eniteo_bassem.dbo.AP_Vendor_PO,POH.Ship , POH_Ship
+eniteo_bassem.dbo.AP_Vendor_PO,POH.CountryID , POH_CountryID
+eniteo_bassem.dbo.AP_Vendor_PO,POH.POComment , POH_POComment
+eniteo_bassem.dbo.AP_Vendor_PO,POH.POCommentNP , POH_POCommentNP
+eniteo_bassem.dbo.AP_Vendor_PO,POH.FOBID , POH_FOBID
+eniteo_bassem.dbo.AP_Vendor_PO,POH.Terms , POH_Terms
+eniteo_bassem.dbo.AP_Vendor_PO,POH.Reference , POH_Reference
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ShipToName , POH_ShipToName
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ShipToAddress , POH_ShipToAddress
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ShipToCity , POH_ShipToCity
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ShipToState , POH_ShipToState
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ShipToZip , POH_ShipToZip
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ShipToPhone , POH_ShipToPhone
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ShipToFax , POH_ShipToFax
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ShipToContact , POH_ShipToContact
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ForeignMade , POH_ForeignMade
+eniteo_bassem.dbo.AP_Vendor_PO,POH.FOBSpecial , POH_FOBSpecial
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ShipToType,POH_ShipToType
+eniteo_bassem.dbo.AP_Vendor_PO,POH.TermsID , POH_TermsID
+eniteo_bassem.dbo.AP_Vendor_PO,POH.FrtCWT , POH_FrtCWT
+eniteo_bassem.dbo.AP_Vendor_PO,POH.FrtAmt , POH_FrtAmt
+eniteo_bassem.dbo.AP_Vendor_PO,POH.PrintFreight,POH_PrintFreight
+eniteo_bassem.dbo.AP_Vendor_PO,POH.RFQNumber , POH_RFQNumber
+eniteo_bassem.dbo.AP_Vendor_PO,POH.RFQDate , POH_RFQDate
+eniteo_bassem.dbo.AP_Vendor_PO,POH.ProcessingPO , POH_ProcessingPO
+eniteo_bassem.dbo.AP_Vendor_PO,POH.WarehouseID , POH_WarehouseID
+eniteo_bassem.dbo.AP_Vendor_PO,POH.BlanketPO , POH_BlanketPO
+eniteo_bassem.dbo.AP_Vendor_PO,POH.NonInvPO,POH_NonInvPO
+eniteo_bassem.dbo.AP_Vendor_PO,POH.FlatFrtAmt , POH_FlatFrtAmt
+eniteo_bassem.dbo.AP_Vendor_PO,POH.CountryCode , POH_CountryCode
+eniteo_bassem.dbo.AP_Vendor_PO,POH.BatchPrintStatus , POH_BatchPrintStatus
+eniteo_bassem.dbo.AP_Vendor_PO,POH.PODueDate , POH_PODueDate
+eniteo_bassem.dbo.AP_Vendor_PO,POL.POLineID , POL_POLineID
+eniteo_bassem.dbo.AP_Vendor_PO,POL.POHeadID , POL_POHeadID
+eniteo_bassem.dbo.AP_Vendor_PO,POL.InventoryID , POL_InventoryID
+eniteo_bassem.dbo.AP_Vendor_PO,POL.ItemID , POL_ItemID
+eniteo_bassem.dbo.AP_Vendor_PO,POL.ShiptoID , POL_ShiptoID
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Pieces , POL_Pieces
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Weight , POL_Weight
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Feet , POL_Feet
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Width , POL_Width
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Width1 , POL_Width1
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Length , POL_Length
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Length1 , POL_Length1
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Price , POL_Price
+eniteo_bassem.dbo.AP_Vendor_PO,POL.UM , POL_UM
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Amount , POL_Amount
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Description , POL_Description
+eniteo_bassem.dbo.AP_Vendor_PO,POL.MiscINfo , POL_MiscINfo
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Flaws00 , POL_Flaws00
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Chemistry , POL_Chemistry
+eniteo_bassem.dbo.AP_Vendor_PO,POL.VendorTagNum , POL_VendorTagNum
+eniteo_bassem.dbo.AP_Vendor_PO,POL.DueDate , POL_DueDate
+eniteo_bassem.dbo.AP_Vendor_PO,POL.RollDate , POL_RollDate
+eniteo_bassem.dbo.AP_Vendor_PO,POL.ChangeDt , POL_ChangeDt
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Release , POL_Release
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Comment , POL_Comment
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Commentnp , POL_Commentnp
+eniteo_bassem.dbo.AP_Vendor_PO,POL.CommentReceiving , POL_CommentReceiving
+eniteo_bassem.dbo.AP_Vendor_PO,POL.CommentSales , POL_CommentSales
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Paperwrap , POL_Paperwrap
+eniteo_bassem.dbo.AP_Vendor_PO,POL.SideUnload , POL_SideUnload
+eniteo_bassem.dbo.AP_Vendor_PO,POL.RearUnload , POL_RearUnload
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Spacers , POL_Spacers
+eniteo_bassem.dbo.AP_Vendor_PO,POL.ForkLift , POL_ForkLift
+eniteo_bassem.dbo.AP_Vendor_PO,POL.CountryID , POL_CountryID
+eniteo_bassem.dbo.AP_Vendor_PO,POL.LineNum , POL_LineNum
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Received,POL_Received
+eniteo_bassem.dbo.AP_Vendor_PO,POL.LockActualCost,POL_LockActualCost
+eniteo_bassem.dbo.AP_Vendor_PO,POL.FrtCWT , POL_FrtCWT
+eniteo_bassem.dbo.AP_Vendor_PO,POL.FrtAmt , POL_FrtAmt
+eniteo_bassem.dbo.AP_Vendor_PO,POL.HideWidthLength , POL_HideWidthLength
+eniteo_bassem.dbo.AP_Vendor_PO,POL.DirectBuyout , POL_DirectBuyout
+eniteo_bassem.dbo.AP_Vendor_PO,POL.PromiseDate , POL_PromiseDate
+eniteo_bassem.dbo.AP_Vendor_PO,POL.FirmDate , POL_FirmDate
+eniteo_bassem.dbo.AP_Vendor_PO,POL.Thickness , POL_Thickness
+eniteo_bassem.dbo.AP_Vendor_PO,POL.GaugeMin , POL_GaugeMin
+eniteo_bassem.dbo.AP_Vendor_PO,POL.GaugeMax , POL_GaugeMax
+eniteo_bassem.dbo.AP_Vendor_PO,POL.GainPercent , POL_GainPercent
+eniteo_bassem.dbo.AP_Vendor_PO,POL.GainOverride,POL_GainOverride
+eniteo_bassem.dbo.AP_Vendor_PO,POL.CustomerID , POL_CustomerID
+eniteo_bassem.dbo.AP_Vendor_PO,POL.ClassificationID , POL_ClassificationID
+POH,POH_PONumber , PO_ID
+POH,POH_POHeadID , ALT_PO_ID
+POH,POH_VendorID , Vendor_ID
+POH,POH_TermsID , Term_ID
+POH,POH_WarehouseID , Warehouse_ID
+POH,POH_FOBID , Free_On_Board_ID
+POH,POH_PODate , Issue_Date
+POH,POH_ShipToType , Shipping_Destination_Type
+POH,POH_NonInvPO , Non_Inventory_Flag
+POH,POH_PrintFreight , Print_Freight_Flag
+POH,POH_Buyer , Buyer_Name
+POH,POH_Ship , Shipping_Method_Description
+POH,POH_FOBSpecial , Free_On_Board_Description
+POH,POH_Reference , Reference
+POH,POH.company_id , company_id
+POH,POH.POHeadID , POH_POHeadID
+POH,POH.PONumber , POH_PONumber
+POH,POH.VendorID , POH_VendorID
+POH,POH.ShipToID , POH_ShipToID
+POH,POH.Buyer , POH_Buyer
+POH,POH.PODate , POH_PODate
+POH,POH.ReleaseFlag , POH_ReleaseFlag
+POH,POH.Ship , POH_Ship
+POH,POH.CountryID , POH_CountryID
+POH,POH.POComment , POH_POComment
+POH,POH.POCommentNP , POH_POCommentNP
+POH,POH.FOBID , POH_FOBID
+POH,POH.Terms , POH_Terms
+POH,POH.Reference , POH_Reference
+POH,POH.ShipToName , POH_ShipToName
+POH,POH.ShipToAddress , POH_ShipToAddress
+POH,POH.ShipToCity , POH_ShipToCity
+POH,POH.ShipToState , POH_ShipToState
+POH,POH.ShipToZip , POH_ShipToZip
+POH,POH.ShipToPhone , POH_ShipToPhone
+POH,POH.ShipToFax , POH_ShipToFax
+POH,POH.ShipToContact , POH_ShipToContact
+POH,POH.ForeignMade , POH_ForeignMade
+POH,POH.FOBSpecial , POH_FOBSpecial
+POH,POH.ShipToType,POH_ShipToType
+POH,POH.TermsID , POH_TermsID
+POH,POH.FrtCWT , POH_FrtCWT
+POH,POH.FrtAmt , POH_FrtAmt
+POH,POH.PrintFreight,POH_PrintFreight
+POH,POH.RFQNumber , POH_RFQNumber
+POH,POH.RFQDate , POH_RFQDate
+POH,POH.ProcessingPO , POH_ProcessingPO
+POH,POH.WarehouseID , POH_WarehouseID
+POH,POH.BlanketPO , POH_BlanketPO
+POH,POH.NonInvPO,POH_NonInvPO
+POH,POH.FlatFrtAmt , POH_FlatFrtAmt
+POH,POH.CountryCode , POH_CountryCode
+POH,POH.BatchPrintStatus , POH_BatchPrintStatus
+POH,POH.PODueDate , POH_PODueDate
+POH,POL.POHeadID , POL_POHeadID
+POL,POL_LineNum , PO_Line_ID
+POL,POL_POLineID , ALT_PO_Line_ID
+POL,POL_ItemID , Product_ID
+POL,POL_UM , Unit_Of_Measure_ID
+POL,POL_ShiptoID , Shipping_Destination_LOC_ID
+POL,POL_CustomerID , Customer_ID
+POL,POL_InventoryID , Inventory_ID
+POL,POL_DueDate , PO_Line_Due_Date
+POL,POL_ChangeDt , PO_Line_Last_Modified_Date
+POL,POL_RollDate , PO_Line_Roll_Date
+POL,POL_Received , Received_Flag
+POL,POL_LockActualCost , Lock_Actual_Cost_Flag
+POL,POL_GainOverride , Item_Gain_Override_Flag
+POL,POL_Weight , Ordered_Weight
+POL,POL_Pieces , Ordered_No_of_Pieces
+POL,POL_Feet , Ordered_Total_Feet
+POL,POL_Amount , Ordered_Total_Cost
+POL,POL_Length , Length
+POL,POL_Width , Width
+POL,POL_Price , Price
+POL,POL_GainPercent , Gain_Percent
+POL,POL.POLineID , POL_POLineID
+POL,POL.POHeadID , POL_POHeadID
+POL,POL.InventoryID , POL_InventoryID
+POL,POL.ItemID , POL_ItemID
+POL,POL.ShiptoID , POL_ShiptoID
+POL,POL.Pieces , POL_Pieces
+POL,POL.Weight , POL_Weight
+POL,POL.Feet , POL_Feet
+POL,POL.Width , POL_Width
+POL,POL.Width1 , POL_Width1
+POL,POL.Length , POL_Length
+POL,POL.Length1 , POL_Length1
+POL,POL.Price , POL_Price
+POL,POL.UM , POL_UM
+POL,POL.Amount , POL_Amount
+POL,POL.Description , POL_Description
+POL,POL.MiscINfo , POL_MiscINfo
+POL,POL.Flaws00 , POL_Flaws00
+POL,POL.Chemistry , POL_Chemistry
+POL,POL.VendorTagNum , POL_VendorTagNum
+POL,POL.DueDate , POL_DueDate
+POL,POL.RollDate , POL_RollDate
+POL,POL.ChangeDt , POL_ChangeDt
+POL,POL.Release , POL_Release
+POL,POL.Comment , POL_Comment
+POL,POL.Commentnp , POL_Commentnp
+POL,POL.CommentReceiving , POL_CommentReceiving
+POL,POL.CommentSales , POL_CommentSales
+POL,POL.Paperwrap , POL_Paperwrap
+POL,POL.SideUnload , POL_SideUnload
+POL,POL.RearUnload , POL_RearUnload
+POL,POL.Spacers , POL_Spacers
+POL,POL.ForkLift , POL_ForkLift
+POL,POL.CountryID , POL_CountryID
+POL,POL.LineNum , POL_LineNum
+POL,POL.Received,POL_Received
+POL,POL.LockActualCost,POL_LockActualCost
+POL,POL.FrtCWT , POL_FrtCWT
+POL,POL.FrtAmt , POL_FrtAmt
+POL,POL.HideWidthLength , POL_HideWidthLength
+POL,POL.DirectBuyout , POL_DirectBuyout
+POL,POL.PromiseDate , POL_PromiseDate
+POL,POL.FirmDate , POL_FirmDate
+POL,POL.Thickness , POL_Thickness
+POL,POL.GaugeMin , POL_GaugeMin
+POL,POL.GaugeMax , POL_GaugeMax
+POL,POL.GainPercent , POL_GainPercent
+POL,POL.GainOverride,POL_GainOverride
+POL,POL.CustomerID , POL_CustomerID
+POL,POL.ClassificationID , POL_ClassificationID
+a,company_id , company_id
+a,company_id , Branch_ID
+a,POH_POHeadID , ALT_PO_ID
+a,POH_WarehouseID , Warehouse_ID
+a,POH_PODate , Issue_Date
+a,POL_DueDate , PO_Line_Due_Date
+a,POL_ChangeDt , PO_Line_Last_Modified_Date
+a,POL_RollDate , PO_Line_Roll_Date
+a,POL_LockActualCost , Lock_Actual_Cost_Flag
+a,POL_GainOverride , Item_Gain_Override_Flag
+a,POH_FOBSpecial , Free_On_Board_Description
+a,POL_GainPercent , Gain_Percent
+a,"CONVERT(datetime,Getdate(),106) ", ELT_Date
+a,POH.company_id , company_id
+a,POH.POHeadID , POH_POHeadID
+a,POH.PODate , POH_PODate
+a,POH.ReleaseFlag , POH_ReleaseFlag
+a,POH.ShipToName , POH_ShipToName
+a,POH.ShipToState , POH_ShipToState
+a,POH.ShipToFax , POH_ShipToFax
+a,POH.ShipToContact , POH_ShipToContact
+a,POH.ForeignMade , POH_ForeignMade
+a,POH.FOBSpecial , POH_FOBSpecial
+a,POH.RFQDate , POH_RFQDate
+a,POH.WarehouseID , POH_WarehouseID
+a,POH.BlanketPO , POH_BlanketPO
+a,POH.FlatFrtAmt , POH_FlatFrtAmt
+a,POH.BatchPrintStatus , POH_BatchPrintStatus
+a,POH.PODueDate , POH_PODueDate
+a,POL.POHeadID , POL_POHeadID
+a,POL.Flaws00 , POL_Flaws00
+a,POL.VendorTagNum , POL_VendorTagNum
+a,POL.DueDate , POL_DueDate
+a,POL.RollDate , POL_RollDate
+a,POL.ChangeDt , POL_ChangeDt
+a,POL.Release , POL_Release
+a,POL.CommentSales , POL_CommentSales
+a,POL.Paperwrap , POL_Paperwrap
+a,POL.SideUnload , POL_SideUnload
+a,POL.RearUnload , POL_RearUnload
+a,POL.Spacers , POL_Spacers
+a,POL.LockActualCost,POL_LockActualCost
+a,POL.PromiseDate , POL_PromiseDate
+a,POL.FirmDate , POL_FirmDate
+a,POL.GaugeMin , POL_GaugeMin
+a,POL.GaugeMax , POL_GaugeMax
+a,POL.GainPercent , POL_GainPercent
+a,POL.GainOverride,POL_GainOverride
+a,POL.ClassificationID , POL_ClassificationID
