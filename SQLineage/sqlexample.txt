@@ -1,6 +1,5 @@
 FROM
 (
-(
 	SELECT
 	  POH.company_id AS company_id,
 	  POH.POHeadID AS POH_POHeadID,
@@ -98,5 +97,4 @@ FROM
 	  (SELECT * FROM Eniteo_Bassem.dbo.POLine WHERE last_record_flag = 1 AND Deleted_After = 0) POL
 	  ON (POH.POHeadId = POL.POHeadId
 	  AND POH.company_id = POL.company_id)
-)b
 )a
